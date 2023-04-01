@@ -24,7 +24,7 @@ for x in range(10):
 
     # Generate new tweet with GPT-3.5
     prompt = f"Generate a new short sentence based on these sentences: {tweet_text}\n\nNew sentence:"
-    model_engine = "text-davinci-002"
+    model_engine = "text-davinci-003"
     response = openai.Completion.create(
         engine=model_engine,
         prompt=prompt,
