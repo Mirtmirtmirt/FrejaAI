@@ -6,7 +6,7 @@ import time
 
 
 # Your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR OPEN AI KEY"
 
 # Array of tweets to feed to GPT-3.5
 tweets = brain2.brain
